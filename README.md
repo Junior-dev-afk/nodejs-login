@@ -67,60 +67,13 @@ Uso
         Página de Login: /login
         Página de Registro: /register
         Página de acesso: /home
-
-Estrutura do Projeto
-
-bash
-
-/projeto-login-moderno
-│
-├── /controllers         # Controladores MVC
-│   └── /funcoes
-|   |   └── login.js
-│   └── /rotas
-|       └── rotas.js
-│
-├── /models              # Modelos MVC
-│   └── /database
-|       ├──/datas
-|       |  └── users.db
-|       └── database.js
-│   
-│
-├── /views    
-|   └── /statics 
-│   |   ├── /css
-│   |   |   └──/login
-|   |   |       └──login.css
-|   |   |
-|   |   └──/js
-|   |      ├── /login
-|   |      |   └── login.js
-|   |      ├── /notify
-|   |      |   └── notify.js
-|   |      ├── /register
-|   |      |   └── register.js
-|   |      └── /sessao
-|   |          └── sessao.js
-|   |
-|   └── /templates
-|       ├── /home
-|       |   └── index.html
-|       ├── /login
-|       |   └── login.html
-|       └── /register
-|           └── register.html
-|
-|
-├── package.json         # Gerenciador de pacotes
-└── server.js            # Arquivo principal do servidor
-
+        
 
 End points
-{
-  /verifyLogin  #verifica com os parametros usuario e senha se a conta existe e se a senha coresponse
-  /register #com os parametros usuario e senha, verifica se o usuario existe caso nao exista ele adiciona ao banco de dados
-}
+    
+      /verifyLogin  #verifica com os parametros usuario e senha se a conta existe e se a senha coresponse
+      /register #com os parametros usuario e senha, verifica se o usuario existe caso nao exista ele adiciona ao banco de dados
+    
 
 
 Contribuição
