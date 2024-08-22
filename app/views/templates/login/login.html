@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+
+    <link rel="stylesheet" href="../../statics/css/login/login.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="login">
+            <input placeholder="User" type="text" id="user" autocomplete="off">
+            <input placeholder="Senha" type="text" id="senha" autocomplete="off">
+            <button onclick="verifyLogin()">Entrar</button>
+        </div>
+        <button onclick="window.location.href = `${window.location.origin}/register`">Registrar</button>
+    </div>
+
+    <script src="../../statics/js/sessao/sessao.js"></script>
+    <script src="../../statics/js/login/login.js"></script>
+    <script src="../../statics/js/notify/notify.js"></script>
+    
+</body>
+</html>

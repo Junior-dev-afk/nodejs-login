@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registro</title>
+
+    <link rel="stylesheet" href="../../statics/css/login/login.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="login">
+            <input placeholder="User" type="text" id="user" autocomplete="off">
+            <input placeholder="Senha" type="text" id="senha" autocomplete="off">
+            <input placeholder="Confirmar senha" type="text" id="confirmar-senha" autocomplete="off">
+            <button onclick="register()">Registar</button>
+        </div>
+        <button onclick="window.location.href = `${window.location.origin}/Login`">Login</button>
+    </div>
+
+    <script src="../../statics/js/sessao/sessao.js"></script>
+    <script src="../../statics/js/register/register.js"></script>
+    <script src="../../statics/js/notify/notify.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+:root{
+    --background-color: black;
+    --color-itens: rgb(255, 255, 255);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+.container{
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid var(--color-itens);
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+input{
+    width: 170px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: var(--color-itens);
+    outline: var(--color-itens) 1px solid;
+    margin-block: 20px;
+    border-radius: 5px;
+    padding-inline: 15px;
+}
+
+input:focus{
+    scale: 1.1;
+    transition: 300ms;
+    box-shadow: 0px 0px 20px var(--color-itens);
+}
+
+::placeholder{
+    color: var(--color-itens);
+}
+
+button{
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    outline: 1px solid var(--color-itens);
+    color: var(--color-itens);
+    margin-block: 20px;
+}
+
+button:hover{
+    scale: 1.1;
+    transition: 300ms;
+    box-shadow: 0px 0px 20px var(--color-itens);
+}
